@@ -1,0 +1,58 @@
+<footer>
+  <div class="footer-nav">
+    <div class="container">
+      <div class="row">
+
+        <div class="footer-col col-xs-12 col-sm-2 social-icons">
+          <a href="#"><img src="images/footer/instagram-icon.png" alt="instagram" width="30"></a>
+          <a href="#"><img src="images/footer/linkedin-icon.png" alt="linkedin" width="30"></a>
+          <a href="#"><img src="images/footer/facebook-icon.png" alt="facebook" width="30"></a>
+          <a href="#"><img src="images/footer/twitter-icon.png" alt="twitter" width="30"></a>
+        </div>
+        
+        <div class="footer-col col-xs-12 col-sm-2">
+          <ul>
+            <li><strong>ABOUT US</strong></li>
+            <li><a href="#">Who we are</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col col-xs-12 col-sm-8">
+          <div class="row">
+            <div class="footer-col col-xs-12 col-sm-4">
+              <ul>
+                <li><strong>CONTACT US</strong></li>
+                <li><a href="mailto:hello@worldprofuntour.com">hello@worldprofuntour.com</a></li>
+                <li><a href="tel:8888888888">(888) 888-8888</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col col-xs-12 col-sm-4">
+              <ul>
+                <li><strong>COMPANY</strong></li>
+                <li><a href="#">Ambassadors</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Legends</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col col-xs-12 col-sm-4">
+               <ul>
+                <li><strong>STORE</strong></li>
+                <li><a href="#">Buy now</a></li>
+              </ul>             
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>©2017 World Pro Fun Tour. All rights reserved. <a href="#">Legal</a> | <a href="#">Privacy</a></p>
+  </div>
+</footer>

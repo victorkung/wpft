@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://www.surepeople.com/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/learn/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/about/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/products/hiring/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/products/performance/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/contact/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/privacy/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/user-agreement/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/cookies/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/prism/SP_PRISM_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/employee-engagement/SP_EG_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/relationship-advisor/SP_RA_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/hiring-filter/SP_HF_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/sp-pulse/SP_SP_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/prism/SP_PRISM_INDIVIDUAL_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/personal-professional/SP_PERSONAL_CAREER_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.surepeople.com/pdfs/sp-resume/SP_SPResume_SellSheet_1sheet.pdf</loc>
+  <lastmod>2015-05-19T22:50:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>

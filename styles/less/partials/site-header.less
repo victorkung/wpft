@@ -1,0 +1,146 @@
+header {
+  width: 100%;
+
+  .banner {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background: #21419a;
+    padding: 25px 0;
+
+    sup {
+      font-size: 6px;
+      top: -7px;
+    }
+
+    .btn-yellow {
+      margin-left: 20px;
+    }
+  }
+
+  .header-nav {
+    background: white;
+    padding: 25px 0;
+
+    .logo {
+      width: 150px;
+    }
+
+    nav {
+      position: relative;
+      top: 7.5px;
+
+      ul {
+        padding-left: 0;
+        float: right;
+      }
+
+      li {
+        float :left;
+        display: inline;
+        margin-right: 35px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+
+      li a {
+        color: #45474d;
+        font-size: 14px;
+      }
+
+      li a.btn-green {
+        position: relative;
+        top: -10px;
+        padding: 6px 22.5px 9px;
+
+        img {
+          position: relative;
+          top: 4px;
+          margin-left: 10px;
+          width: 20px;
+        }
+      }
+    }
+  }
+
+  #mobile-nav-trigger {
+    position: relative;
+    text-align: right;
+    top: 3px;
+    right: 15px;
+  }
+}
+
+
+// Mobile Navigation
+.mobile-nav {
+  position: fixed;
+  right: 0px;
+  background: white;
+  top: 0;
+  bottom: 0;
+  padding: 15px 0;
+  z-index: 100;
+  width: 300px;
+  right: -300px;
+
+  
+  // Base styling for mobile nav elements
+  li a {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    transition: all 1s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    i {
+      font-size: 10px;
+      position: relative;
+      top: -2px;
+      left: 3px;
+    }
+  }
+
+  // Styling for first-level elements
+  > ul > li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    
+    > a {
+      padding: 10px 20px 15px;
+    }
+  }
+}
+
+
+
+// Media Queries
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  header {
+    .header-nav .container {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    .banner {
+      .btn-yellow {
+        display: block;
+        margin: 20px auto 0;
+        width: 200px;
+      }      
+    }
+  }
+}
+
+
+

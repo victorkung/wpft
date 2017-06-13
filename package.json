@@ -1,0 +1,33 @@
+{
+  "name": "SurePeople",
+  "version": "0.0.1",
+  "description" : "",    
+  "author": {
+    "name": "Prasanna"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-less": "https://github.com/robertinglin/grunt-contrib-less/tarball/master",
+    "grunt-contrib-compress": "~0.5.3",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-csssplit": "0.4.0",
+    "grunt-version-assets": "1.1.0",
+    "grunt-contrib-concat": "0.5.1",
+    "grunt-ng-annotate": "1.0.1",
+    "karma": "~0.12.0",
+    "karma-jasmine": "~0.2.0",
+    "karma-chrome-launcher":"~0.2.0",
+    "karma-cli":"~0.1.0",
+    "karma-fixture":"~0.2.5",
+    "karma-html2js-preprocessor":"~0.1",
+    "karma-json-fixtures-preprocessor":"~0.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.10.0"
+  }
+}

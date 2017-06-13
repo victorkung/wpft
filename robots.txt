@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /scripts/*
+Disallow: /images/*
+Disallow: /styles/*
+Disallow: /sp/*
+Disallow: /Gruntfile.js
+Disallow: /404.html
