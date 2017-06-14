@@ -3248,6 +3248,7 @@ a.btn {
   display: inline-block;
   padding: 5px 15px;
   border-radius: 5px;
+  text-transform: uppercase;
 }
 a.btn-yellow {
   background: #fbd87c;
@@ -3257,6 +3258,11 @@ a.btn-green {
 }
 .mobile-show {
   display: block;
+}
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 @media screen and (max-width: 768px) {
   .mobile-hide {
@@ -3417,5 +3423,74 @@ footer .footer-bottom {
   }
   footer .footer-col:last-of-type {
     margin-bottom: 0px;
+  }
+}
+.home .hero {
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 825px;
+  text-align: center;
+  background: url(../images/home/home-hero.jpg) no-repeat center center;
+  background-size: cover;
+}
+.home .hero h1 {
+  font-size: 58px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+.home .hero a.btn-green {
+  font-size: 22px;
+  padding: 12.5px 65px;
+}
+.home .hero .hashtag {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 35px;
+  font-size: 28px;
+}
+.home .quotes {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: white;
+}
+.home .quotes blockquote {
+  background-image: url(../images/home/quote-icon.png);
+  background-repeat: no-repeat;
+  background-position: -5px 5px;
+  padding: 25px 85px;
+}
+.home .quotes q {
+  display: inline-block;
+  color: #21419a;
+  font-size: 28px;
+  font-style: italic;
+}
+.home .quotes cite {
+  display: block;
+  color: #45474d;
+  font-size: 18px;
+  text-align: right;
+  font-weight: 700;
+  padding-right: 75px;
+  margin-top: 25px;
+}
+@media screen and (max-width: 768px) {
+  .home .hero h1 {
+    font-size: 40px;
+  }
+  .home .quotes blockquote {
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home .quotes q,
+  .home .quotes cite {
+    text-align: center;
+  }
+  .home .quotes cite {
+    padding-right: 0;
   }
 }
