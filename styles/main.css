@@ -278,6 +278,44 @@ nav li {
 body {
   font-family: 'Lato', sans-serif;
 }
+h1,
+h2 {
+  font-weight: 900;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 58px;
+}
+h2 {
+  font-size: 58px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+}
+p,
+a,
+li {
+  font-weight: normal;
+}
 @charset "UTF-8";
 /*!
  * animate.css -http://daneden.me/animate
@@ -3256,8 +3294,17 @@ a.btn-yellow {
 a.btn-green {
   background: #7ec6b0;
 }
+a.btn-blue {
+  background: #21419a;
+}
 .mobile-show {
   display: block;
+}
+.ta-center {
+  text-align: center;
+}
+.fl-right {
+  float: right !important;
 }
 .vertical-align {
   position: relative;
@@ -3435,8 +3482,6 @@ footer .footer-bottom {
   background-size: cover;
 }
 .home .hero h1 {
-  font-size: 58px;
-  font-weight: bold;
   margin-bottom: 65px;
 }
 .home .hero a.btn-green {
@@ -3449,6 +3494,106 @@ footer .footer-bottom {
   right: 0;
   bottom: 35px;
   font-size: 28px;
+}
+.home .about-wpft {
+  text-align: center;
+  position: relative;
+  min-height: 500px;
+  height: 100vh;
+  color: #21419a;
+  background: url(../images/home/wpft-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.home .about-wpft .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.home .about-wpft .left-col {
+  margin-bottom: 20px;
+}
+.home .about-wpft h2 {
+  text-align: center;
+  font-weight: 300;
+  line-height: 0.9em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.home .about-wpft h2 span {
+  display: block;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 1em;
+}
+.home .about-wpft h2 sup {
+  font-size: 8px;
+  top: -22px;
+}
+.home .about-wpft p {
+  font-size: 20px;
+}
+.home .blue-callout {
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  background: #21419a;
+}
+.home .three-col {
+  text-align: center;
+  background: #fbd87c;
+  padding: 100px 0;
+}
+.home .three-col h4,
+.home .three-col p {
+  margin-bottom: 20px;
+}
+.home .three-col img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+.home .three-col h4 {
+  color: black;
+}
+.home .three-col p {
+  color: #45474d;
+}
+.home .three-col a {
+  display: block;
+  font-size: 12px;
+  color: #21419a;
+}
+.home .two-square-layout {
+  color: white;
+}
+.home .two-square-layout .col {
+  padding: 50px;
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+.home .two-square-layout .has-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.home .two-square-layout h2,
+.home .two-square-layout a.btn {
+  text-transform: uppercase;
+}
+.home .two-square-layout h2 {
+  margin-bottom: 30px;
+}
+.home .two-square-layout a.btn {
+  margin-top: 25px;
+  padding: 10px 50px;
+}
+.home .two-square-layout p {
+  font-size: 18px;
+  line-height: 26px;
+}
+.home .two-square-layout sup {
+  font-size: 8px;
+  top: -10px;
 }
 .home .quotes {
   position: relative;
@@ -3477,12 +3622,98 @@ footer .footer-bottom {
   padding-right: 75px;
   margin-top: 25px;
 }
+.home .all-the-fun {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../images/home/all-the-fun.jpg) center center no-repeat;
+  background-size: cover;
+}
+.home .all-the-fun h2 {
+  color: white;
+  text-transform: uppercase;
+}
+.home .all-the-fun img {
+  position: absolute;
+  width: 400px;
+  right: 0px;
+  top: -50px;
+}
+.home .live-longer {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  background: url(../images/home/image_world_map.jpg) center center no-repeat;
+  background-size: cover;
+}
+.home .live-longer h2,
+.home .live-longer p {
+  color: #0000ff;
+}
+.home .live-longer h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.home .live-longer p {
+  font-size: 18px;
+}
+.home .live-longer a.btn {
+  font-size: 24px;
+  margin-top: 50px;
+  padding: 15px 50px;
+}
 @media screen and (max-width: 768px) {
-  .home .hero h1 {
-    font-size: 40px;
-  }
   .home .quotes blockquote {
     padding: 25px;
+  }
+  .home .blue-callout {
+    padding: 30px 0;
+  }
+  .home .three-col .col {
+    margin-bottom: 50px;
+  }
+  .home .two-square-layout .col {
+    width: 100%;
+  }
+  .home .all-the-fun {
+    text-align: center;
+  }
+  .home .all-the-fun img {
+    top: 0;
+    position: relative;
+    padding-top: 50px;
+  }
+  .home .live-longer {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home .about-wpft {
+    text-align: initial;
+    min-height: 800px;
+  }
+  .home .about-wpft .container {
+    width: 475px!important;
+    position: absolute;
+    left: 15%;
+    top: 160px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .home .about-wpft h2 span {
+    font-size: 120px;
+  }
+  .home .about-wpft h2 sup {
+    font-size: 12px;
+    top: -33px;
+  }
+  .home .about-wpft .left-col {
+    text-align: right;
+    margin-bottom: 0;
+  }
+  .home .about-wpft .right-col {
+    text-align: left;
   }
 }
 @media screen and (max-width: 500px) {
