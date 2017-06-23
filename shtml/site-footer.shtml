@@ -4,17 +4,17 @@
       <div class="row">
 
         <div class="footer-col col-xs-12 col-sm-2 social-icons">
-          <a href="#"><img src="images/footer/instagram-icon.png" alt="instagram" width="30"></a>
-          <a href="#"><img src="images/footer/linkedin-icon.png" alt="linkedin" width="30"></a>
-          <a href="#"><img src="images/footer/facebook-icon.png" alt="facebook" width="30"></a>
-          <a href="#"><img src="images/footer/twitter-icon.png" alt="twitter" width="30"></a>
+          <a href="#"><img src="/images/footer/instagram-icon.png" alt="instagram" width="30"></a>
+          <a href="#"><img src="/images/footer/linkedin-icon.png" alt="linkedin" width="30"></a>
+          <a href="#"><img src="/images/footer/facebook-icon.png" alt="facebook" width="30"></a>
+          <a href="#"><img src="/images/footer/twitter-icon.png" alt="twitter" width="30"></a>
         </div>
         
         <div class="footer-col col-xs-12 col-sm-2">
           <ul>
             <li><strong>ABOUT US</strong></li>
-            <li><a href="#">Who we are</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="/who-we-are/">Who we are</a></li>
+            <li><a href="/blog/">Blog</a></li>
           </ul>
         </div>
 
@@ -31,10 +31,10 @@
             <div class="footer-col col-xs-12 col-sm-4">
               <ul>
                 <li><strong>COMPANY</strong></li>
-                <li><a href="#">Ambassadors</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Research</a></li>
-                <li><a href="#">Legends</a></li>
+                <li><a href="/ambassadors/">Ambassadors</a></li>
+                <li><a href="/events/">Events</a></li>
+                <li><a href="/research/">Research</a></li>
+                <li><a href="/legends/">Legends</a></li>
               </ul>
             </div>
 

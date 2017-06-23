@@ -289,7 +289,7 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 58px;
+  font-size: 64px;
 }
 h2 {
   font-size: 58px;
@@ -299,6 +299,11 @@ h3 {
 }
 h4 {
   font-size: 24px;
+}
+p,
+a,
+li {
+  font-weight: normal;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -310,11 +315,9 @@ h4 {
   h3 {
     font-size: 30px;
   }
-}
-p,
-a,
-li {
-  font-weight: normal;
+  p {
+    font-size: 18px !important;
+  }
 }
 @charset "UTF-8";
 /*!
@@ -3379,7 +3382,7 @@ header .header-nav nav li a.btn-green img {
 }
 header #mobile-nav-trigger {
   position: relative;
-  text-align: right;
+  float: right;
   top: 3px;
   right: 15px;
 }
@@ -3472,28 +3475,108 @@ footer .footer-bottom {
     margin-bottom: 0px;
   }
 }
-.home .hero {
+.hero {
   position: relative;
   color: white;
   width: 100%;
-  height: 825px;
+  height: 550px;
   text-align: center;
-  background: url(../images/home/home-hero.jpg) no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
-.home .hero h1 {
-  margin-bottom: 65px;
-}
-.home .hero a.btn-green {
+.hero a.btn-green {
   font-size: 22px;
   padding: 12.5px 65px;
 }
-.home .hero .hashtag {
+.hero .hashtag {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 35px;
   font-size: 28px;
+}
+.blue-callout {
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  background: #21419a;
+}
+.yellow-callout {
+  color: white;
+  padding: 45px 0 40px;
+  background: #fbd87c;
+}
+.yellow-callout h3 {
+  position: relative;
+  top: 5px;
+  text-align: right;
+}
+.yellow-callout .btn-green {
+  font-size: 24px;
+  padding: 15px 50px;
+}
+@media screen and (max-width: 768px) {
+  .blue-callout {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .yellow-callout {
+    text-align: center;
+  }
+  .yellow-callout h3 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+.quotes {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: white;
+}
+.quotes blockquote {
+  background-image: url(../images/home/quote-icon.png);
+  background-repeat: no-repeat;
+  background-position: -5px 5px;
+  padding: 25px 85px;
+}
+.quotes q {
+  display: inline-block;
+  color: #21419a;
+  font-size: 28px;
+  font-style: italic;
+}
+.quotes cite {
+  display: block;
+  color: #45474d;
+  font-size: 18px;
+  text-align: right;
+  font-weight: 700;
+  padding-right: 75px;
+  margin-top: 25px;
+}
+@media screen and (max-width: 768px) {
+  .quotes blockquote {
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .quotes q,
+  .quotes cite {
+    text-align: center;
+  }
+  .quotes cite {
+    padding-right: 0;
+  }
+}
+.home .hero {
+  background-image: url(../images/home/home-hero.jpg);
+  height: 825px;
+}
+.home .hero h1 {
+  margin-bottom: 65px;
 }
 .home .about-wpft {
   text-align: center;
@@ -3531,12 +3614,6 @@ footer .footer-bottom {
 }
 .home .about-wpft p {
   font-size: 20px;
-}
-.home .blue-callout {
-  color: white;
-  padding: 15px 0;
-  text-align: center;
-  background: #21419a;
 }
 .home .three-col {
   text-align: center;
@@ -3595,33 +3672,6 @@ footer .footer-bottom {
   font-size: 8px;
   top: -10px;
 }
-.home .quotes {
-  position: relative;
-  width: 100%;
-  height: 350px;
-  background: white;
-}
-.home .quotes blockquote {
-  background-image: url(../images/home/quote-icon.png);
-  background-repeat: no-repeat;
-  background-position: -5px 5px;
-  padding: 25px 85px;
-}
-.home .quotes q {
-  display: inline-block;
-  color: #21419a;
-  font-size: 28px;
-  font-style: italic;
-}
-.home .quotes cite {
-  display: block;
-  color: #45474d;
-  font-size: 18px;
-  text-align: right;
-  font-weight: 700;
-  padding-right: 75px;
-  margin-top: 25px;
-}
 .home .all-the-fun {
   position: relative;
   height: 100vh;
@@ -3663,12 +3713,6 @@ footer .footer-bottom {
   padding: 15px 50px;
 }
 @media screen and (max-width: 768px) {
-  .home .quotes blockquote {
-    padding: 25px;
-  }
-  .home .blue-callout {
-    padding: 30px 0;
-  }
   .home .three-col .col {
     margin-bottom: 50px;
   }
@@ -3716,12 +3760,64 @@ footer .footer-bottom {
     text-align: left;
   }
 }
-@media screen and (max-width: 500px) {
-  .home .quotes q,
-  .home .quotes cite {
-    text-align: center;
+.events .hero {
+  background-image: url(../images/events/hero-banner.jpg);
+}
+.events .hero h1 {
+  margin-bottom: 40px;
+}
+.events .hero p {
+  font-size: 24px;
+  font-weight: 300;
+}
+.events .three-square-layout {
+  color: white;
+  text-align: center;
+}
+.events .three-square-layout .col {
+  padding: 50px;
+  float: left;
+  width: 33.33333%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.events .three-square-layout h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  word-break: break-word;
+}
+.events .three-square-layout a {
+  color: white;
+}
+.events .three-square-layout p {
+  font-size: 24px;
+}
+@media screen and (max-width: 991px) {
+  .events .three-square-layout .col {
+    width: 50%;
   }
-  .home .quotes cite {
-    padding-right: 0;
+}
+@media screen and (max-width: 768px) {
+  .events .three-square-layout .col {
+    width: 100%;
   }
+}
+.ambassadors .hero-1 {
+  background-image: url(../images/ambassadors/image_ambassador.jpg);
+}
+.ambassadors .hero-1 h1 {
+  margin-bottom: 15px;
+}
+.ambassadors .hero-1 p {
+  font-size: 24px;
+  font-weight: 300;
+}
+.ambassadors .hero-2 {
+  background-image: url(../images/ambassadors/image_bg_ambassador.jpg);
+}
+.ambassadors .hero-2 a.btn-green {
+  font-size: 28px;
+  padding: 20px 80px;
 }

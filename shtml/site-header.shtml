@@ -19,21 +19,21 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-6 col-sm-3">
-          <img src="images/header/header-logo.png" alt="Word Pro Fun Tour Logo" class="logo">
+          <a href="/"><img src="/images/header/header-logo.png" alt="Word Pro Fun Tour Logo" class="logo"></a>
         </div>
 
         <!-- Desktop Navigation -->
         <nav class="col-xs-6 col-sm-9 mobile-hide">
           <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Research</a></li>
-            <li><a href="#">Become an ambassador</a></li>
-            <li><a href="#" class="btn btn-green">STORE <img src="images/header/icon_cart.png" alt=""></a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/events/">Events</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/ambassadors/">Become an ambassador</a></li>
+            <li><a href="#" class="btn btn-green">STORE <img src="/images/header/icon_cart.png" alt=""></a></li>
           </ul>
         </nav>
 
-        <a href="#" id="mobile-nav-trigger" class="mobile-show"><img src="images/header/menu-icon.png" alt="" width="35"></a>
+        <a href="#" id="mobile-nav-trigger" class="mobile-show"><img src="/images/header/menu-icon.png" alt="" width="35"></a>
           
         </div>
       </div>
@@ -45,13 +45,14 @@
 <!-- Mobile Navigation Menu -->
 <div class="mobile-nav">
   <ul>
-    <li style="text-align: right;"><a href="#" id="mobile-menu-close"><img src="images/header/close-icon.png" alt="" width="35"></a></li>
-    
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Events</a></li>
-    <li><a href="#">Research</a></li>
-    <li><a href="#">Become an ambassador</a></li>
-    <li><a href="#">Store <img src="images/header/icon_cart.png" alt="" width="20"></a></li>
+    <li style="text-align: right;"><a href="#" id="mobile-menu-close"><img src="/images/header/close-icon.png" alt="" width="35"></a></li>
+
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/events/">Events</a></li>
+    <li><a href="/research/">Research</a></li>
+    <li><a href="/ambassadors/">Become an ambassador</a></li>
+    <li><a href="#">Store <img src="/images/header/icon_cart.png" alt="" width="20"></a></li>
 
   </ul>
 </div>

@@ -1,0 +1,50 @@
+// Quotes Section
+.quotes {
+  position: relative;;
+  width: 100%;
+  height: 350px;
+  background: white;
+
+  blockquote {
+    background-image: url(../images/home/quote-icon.png);
+    background-repeat: no-repeat;
+    background-position: -5px 5px;
+    padding: 25px 85px;
+  }
+
+  q {
+    display: inline-block;
+    color: #21419a;
+    font-size: 28px;
+    font-style: italic;
+  }
+
+  cite {
+    display: block;
+    color: #45474d;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 700;
+    padding-right: 75px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.quotes {
+  blockquote {
+    padding: 25px;
+  }
+}
+}
+
+@media screen and (max-width: 500px) {
+.quotes {
+  q, cite {
+    text-align: center;
+  }
+  cite {
+    padding-right: 0;
+  }
+}
+}

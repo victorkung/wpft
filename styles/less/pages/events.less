@@ -1,0 +1,67 @@
+.events {
+
+// Events Hero
+.hero {
+  background-image: url(../images/events/hero-banner.jpg);
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 300;
+  }
+}
+
+// Three Square Layout
+.three-square-layout {
+  color: white;
+  text-align: center;
+
+  .col {
+    padding: 50px;
+    float: left;
+    width: 33.33333%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  h2 { 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    word-break: break-word;
+  }
+
+  a {
+    color: white;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+}
+}
+
+@media screen and (max-width: 991px) {
+.events {
+  .three-square-layout {
+    .col {
+      width: 50%;
+    }
+  }
+}
+}
+
+@media screen and (max-width: 768px) {
+.events {
+  .three-square-layout {
+    .col {
+      width: 100%;
+    }
+  }
+}
+}

@@ -1,33 +1,14 @@
 .home {
 
-// Home Hero
-.hero {
-  position: relative;
-  color: white;
-  width: 100%;
-  height: 825px;
-  text-align: center;
-  background: url(../images/home/home-hero.jpg) no-repeat center center;
-  background-size: cover;
+  // Home Hero
+  .hero {
+    background-image: url(../images/home/home-hero.jpg) ;
+    height: 825px;
 
-  h1 {
-    margin-bottom: 65px;
+    h1 {
+      margin-bottom: 65px;
+    }
   }
-
-  a.btn-green {
-    font-size: 22px;
-    padding: 12.5px 65px;
-  }
-
-  .hashtag {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 35px;
-    font-size: 28px;
-  }
-}
-
 
 // About WPFT
 .about-wpft {
@@ -73,15 +54,6 @@
     font-size: 20px;
   }
 
-}
-
-
-// Blue Callout
-.blue-callout {
-  color: white;
-  padding: 15px 0;
-  text-align: center;
-  background: #21419a;
 }
 
 
@@ -157,37 +129,7 @@
 }
 
 
-// Quotes Section
-.quotes {
-  position: relative;;
-  width: 100%;
-  height: 350px;
-  background: white;
 
-  blockquote {
-    background-image: url(../images/home/quote-icon.png);
-    background-repeat: no-repeat;
-    background-position: -5px 5px;
-    padding: 25px 85px;
-  }
-
-  q {
-    display: inline-block;
-    color: #21419a;
-    font-size: 28px;
-    font-style: italic;
-  }
-
-  cite {
-    display: block;
-    color: #45474d;
-    font-size: 18px;
-    text-align: right;
-    font-weight: 700;
-    padding-right: 75px;
-    margin-top: 25px;
-  }
-}
 
 
 // All the Fun in the World
@@ -247,14 +189,6 @@
 
 @media screen and (max-width: 768px) {
 .home {
-  .quotes {
-    blockquote {
-      padding: 25px;
-    }
-  }
-  .blue-callout {
-    padding: 30px 0;
-  }
   .three-col {
     .col {
       margin-bottom: 50px;
@@ -312,21 +246,6 @@
 
     .right-col {
       text-align: left;
-    }
-  }
-}
-}
-
-
-
-@media screen and (max-width: 500px) {
-.home {
-  .quotes {
-    q, cite {
-      text-align: center;
-    }
-    cite {
-      padding-right: 0;
     }
   }
 }
