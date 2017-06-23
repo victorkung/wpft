@@ -5,21 +5,21 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-6 col-sm-3">
-          <a href="/"><img src="/images/header/header-logo.png" alt="Word Pro Fun Tour Logo" class="logo"></a>
+          <a href="/wpft/"><img src="/wpft/images/header/header-logo.png" alt="Word Pro Fun Tour Logo" class="logo"></a>
         </div>
 
         <!-- Desktop Navigation -->
         <nav class="col-xs-6 col-sm-9 mobile-hide">
           <ul>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/events/">Events</a></li>
-            <li><a href="/research/">Research</a></li>
-            <li><a href="/ambassadors/">Become an ambassador</a></li>
-            <li><a href="#" class="btn btn-green">STORE <img src="/images/header/icon_cart.png" alt=""></a></li>
+            <li><a href="/wpft/blog/">Blog</a></li>
+            <li><a href="/wpft/events/">Events</a></li>
+            <li><a href="/wpft/research/">Research</a></li>
+            <li><a href="/wpft/ambassadors/">Become an ambassador</a></li>
+            <li><a href="#" class="btn btn-green">STORE <img src="/wpft/images/header/icon_cart.png" alt=""></a></li>
           </ul>
         </nav>
 
-        <a href="#" id="mobile-nav-trigger" class="mobile-show"><img src="/images/header/menu-icon.png" alt="" width="35"></a>
+        <a href="#" id="mobile-nav-trigger" class="mobile-show"><img src="/wpft/images/header/menu-icon.png" alt="" width="35"></a>
           
         </div>
       </div>
@@ -31,14 +31,14 @@
 <!-- Mobile Navigation Menu -->
 <div class="mobile-nav">
   <ul>
-    <li style="text-align: right;"><a href="#" id="mobile-menu-close"><img src="/images/header/close-icon.png" alt="" width="35"></a></li>
+    <li style="text-align: right;"><a href="#" id="mobile-menu-close"><img src="/wpft/images/header/close-icon.png" alt="" width="35"></a></li>
 
-    <li><a href="/">Home</a></li>
-    <li><a href="/blog/">Blog</a></li>
-    <li><a href="/events/">Events</a></li>
-    <li><a href="/research/">Research</a></li>
-    <li><a href="/ambassadors/">Become an ambassador</a></li>
-    <li><a href="#">Store <img src="/images/header/icon_cart.png" alt="" width="20"></a></li>
+    <li><a href="/wpft/">Home</a></li>
+    <li><a href="/wpft/blog/">Blog</a></li>
+    <li><a href="/wpft/events/">Events</a></li>
+    <li><a href="/wpft/research/">Research</a></li>
+    <li><a href="/wpft/ambassadors/">Become an ambassador</a></li>
+    <li><a href="#">Store <img src="/wpft/images/header/icon_cart.png" alt="" width="20"></a></li>
 
   </ul>
 </div>
