@@ -1,19 +1,5 @@
 <header>
 
-  <!-- Top Banner -->
-  <div class="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <p>
-            World Pro Fun Tour<sup>TM</sup> starts here.
-            <a href="#" class="btn btn-yellow">WATCH VIDEO</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Header Navigation -->
   <div class="header-nav">
     <div class="container">
