@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-6 col-sm-3">
-          <a href="/wpft/"><img src="/wpft/images/header/header-logo.png" alt="Word Pro Fun Tour Logo" class="logo"></a>
+          <a href="/wpft/" class="logo"><img src="/wpft/images/header/header-logo.png" alt="Word Pro Fun Tour Logo"></a>
         </div>
 
         <!-- Desktop Navigation -->
@@ -15,7 +15,7 @@
             <li><a href="/wpft/events/">Events</a></li>
             <li><a href="/wpft/research/">Research</a></li>
             <li><a href="/wpft/ambassadors/">Become an ambassador</a></li>
-            <li><a href="#" class="btn btn-green">STORE <img src="/wpft/images/header/icon_cart.png" alt=""></a></li>
+            <li><a href="https://worldprofuntour.myshopify.com/" class="btn btn-green" target="blank">STORE <img src="/wpft/images/header/icon_cart.png" alt=""></a></li>
           </ul>
         </nav>
 
@@ -38,7 +38,7 @@
     <li><a href="/wpft/events/">Events</a></li>
     <li><a href="/wpft/research/">Research</a></li>
     <li><a href="/wpft/ambassadors/">Become an ambassador</a></li>
-    <li><a href="#">Store <img src="/wpft/images/header/icon_cart.png" alt="" width="20"></a></li>
+    <li><a href="https://worldprofuntour.myshopify.com/" target="_blank">Store <img src="/wpft/images/header/icon_cart.png" alt="" width="20"></a></li>
 
   </ul>
 </div>

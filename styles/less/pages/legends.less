@@ -1,0 +1,147 @@
+.legends {
+
+  // Legends Hero 
+  .hero {
+    background-image: url(../images/legends/hero-banner.jpg);
+    background-position: center center;
+    height: 650px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+
+  #doctor-bob {
+    background-color: #fbd87c;
+    min-height: 500px;    
+    text-align: center;
+    padding: 50px 0 75px 0;
+
+    .container, .row {
+      min-height: 500px;
+    }
+
+    img.dr-bob-img {
+      position: relative;
+      width: 400px;
+    }
+
+    .dr-bob-text { 
+      margin-top: 50px;
+    }
+    
+    h2, p {
+      color: #0000ff;
+    }    
+   
+    h2 {
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .social-icons a {
+    margin-right: 7.5px;
+
+    &:last-of-type {
+      margin-right: 0px;
+    }
+  }
+
+
+  #briggs-kilborne {
+    background: url('../images/legends/briggs-kilborne.png') bottom center no-repeat #21419a;
+    background-size: contain;
+    height: 650px;
+    text-align: center;
+    
+    .container, .row {
+      height: 650px;
+    }
+
+    h2, p {
+      color: white;
+    }    
+   
+    h2 {
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .social-icons a {
+    margin-right: 7.5px;
+
+    &:last-of-type {
+      margin-right: 0px;
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .legends {
+    #doctor-bob {
+      text-align: left;
+      height: 650px;
+      padding: 0;
+
+      .container, .row, .dr-bob-img-wrapper {
+        height: 650px;
+      }
+
+      .dr-bob-text {
+        position: relative;
+        margin-top: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      img.dr-bob-img {
+        position: absolute;
+        width: auto;
+        bottom: 0;
+      }
+    }
+
+    #briggs-kilborne {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .legends {
+    #doctor-bob {
+      text-align: left;
+      padding: 0;
+
+      img.dr-bob-img {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+
+
+
+

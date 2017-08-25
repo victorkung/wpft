@@ -305,7 +305,7 @@ a,
 li {
   font-weight: normal;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   h1 {
     font-size: 40px;
   }
@@ -3329,14 +3329,18 @@ header {
 }
 header .header-nav {
   background: white;
-  padding: 25px 0;
+  padding: 25px 0 20px;
 }
 header .header-nav .logo {
-  width: 150px;
+  display: block;
+}
+header .header-nav .logo img {
+  width: 200px;
+  max-width: 200px;
 }
 header .header-nav nav {
   position: relative;
-  top: 7.5px;
+  top: 15px;
 }
 header .header-nav nav ul {
   padding-left: 0;
@@ -3357,7 +3361,7 @@ header .header-nav nav li a {
 header .header-nav nav li a.btn-green {
   position: relative;
   top: -10px;
-  padding: 6px 22.5px 9px;
+  padding: 6px 22.5px 12px;
 }
 header .header-nav nav li a.btn-green img {
   position: relative;
@@ -3368,7 +3372,7 @@ header .header-nav nav li a.btn-green img {
 header #mobile-nav-trigger {
   position: relative;
   float: right;
-  top: 3px;
+  top: 10px;
   right: 15px;
 }
 .mobile-nav {
@@ -3561,14 +3565,15 @@ footer .footer-bottom {
   font-size: 6px;
   top: -7px;
 }
-.blue-banner .btn-yellow {
+.blue-banner a.btn-yellow {
+  color: #21419a !important;
   margin-left: 20px;
 }
-@media screen and (max-width: 400px) {
-  .banner .btn-yellow {
-    display: block;
-    margin: 20px auto 0;
+@media screen and (max-width: 465px) {
+  .blue-banner a.btn-yellow {
+    margin: 25px auto 10px;
     width: 200px;
+    display: block;
   }
 }
 .two-square-layout {
@@ -3611,6 +3616,7 @@ footer .footer-bottom {
 }
 .home .hero {
   background-image: url(../images/home/home-hero.jpg);
+  background-position: top center;
   height: 825px;
 }
 .home .hero h1 {
@@ -3764,13 +3770,14 @@ footer .footer-bottom {
 }
 .events .hero {
   background-image: url(../images/events/hero-banner.jpg);
+  background-position: top center;
 }
 .events .hero h1 {
   margin-bottom: 40px;
 }
 .events .hero p {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .events .three-square-layout {
   color: white;
@@ -3814,7 +3821,7 @@ footer .footer-bottom {
 }
 .ambassadors .hero-1 p {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .ambassadors .hero-2 {
   background-image: url(../images/ambassadors/image_bg_ambassador.jpg);
@@ -3826,6 +3833,9 @@ footer .footer-bottom {
 .research .hero {
   text-align: left;
   background-image: url(../images/research/image_research.jpg);
+}
+.research .two-square-layout img {
+  width: 75px;
 }
 .research .fun-life {
   padding: 100px 0;
@@ -3842,7 +3852,133 @@ footer .footer-bottom {
   color: #45474d;
 }
 @media screen and (max-width: 768px) {
+  .research .two-square-layout .col {
+    height: 550px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .research .two-square-layout .col {
+    text-align: center;
+    height: 600px;
+  }
   .research .two-square-layout img {
-    display: none;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .research .two-square-layout img {
+    width: 100px;
+    min-width: 100px;
+  }
+}
+.legends .hero {
+  background-image: url(../images/legends/hero-banner.jpg);
+  background-position: center center;
+  height: 650px;
+}
+.legends h1 {
+  margin-bottom: 20px;
+}
+.legends p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.legends #doctor-bob {
+  background-color: #fbd87c;
+  min-height: 500px;
+  text-align: center;
+  padding: 50px 0 75px 0;
+}
+.legends #doctor-bob .container,
+.legends #doctor-bob .row {
+  min-height: 500px;
+}
+.legends #doctor-bob img.dr-bob-img {
+  position: relative;
+  width: 400px;
+}
+.legends #doctor-bob .dr-bob-text {
+  margin-top: 50px;
+}
+.legends #doctor-bob h2,
+.legends #doctor-bob p {
+  color: #0000ff;
+}
+.legends #doctor-bob h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.legends #doctor-bob p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.legends .social-icons a {
+  margin-right: 7.5px;
+}
+.legends .social-icons a:last-of-type {
+  margin-right: 0px;
+}
+.legends #briggs-kilborne {
+  background: url('../images/legends/briggs-kilborne.png') bottom center no-repeat #21419a;
+  background-size: contain;
+  height: 650px;
+  text-align: center;
+}
+.legends #briggs-kilborne .container,
+.legends #briggs-kilborne .row {
+  height: 650px;
+}
+.legends #briggs-kilborne h2,
+.legends #briggs-kilborne p {
+  color: white;
+}
+.legends #briggs-kilborne h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.legends #briggs-kilborne p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.legends .social-icons a {
+  margin-right: 7.5px;
+}
+.legends .social-icons a:last-of-type {
+  margin-right: 0px;
+}
+@media screen and (min-width: 768px) {
+  .legends #doctor-bob {
+    text-align: left;
+    height: 650px;
+    padding: 0;
+  }
+  .legends #doctor-bob .container,
+  .legends #doctor-bob .row,
+  .legends #doctor-bob .dr-bob-img-wrapper {
+    height: 650px;
+  }
+  .legends #doctor-bob .dr-bob-text {
+    position: relative;
+    margin-top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .legends #doctor-bob img.dr-bob-img {
+    position: absolute;
+    width: auto;
+    bottom: 0;
+  }
+  .legends #briggs-kilborne {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .legends #doctor-bob {
+    text-align: left;
+    padding: 0;
+  }
+  .legends #doctor-bob img.dr-bob-img {
+    position: absolute;
+    bottom: 0;
   }
 }

@@ -14,7 +14,6 @@
   <!-- Open Graph Tags -->
   <meta property="og:title" content="World Pro Fun Tour™" >
   <meta property="og:description" content="World Pro Fun Tour™" >
-  <meta property="og:url" content="Website URL Goes Here" >
 
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -26,7 +25,6 @@
 
 <body class="home">
 
-<!--#include virtual="shtml/blue-banner.shtml"  -->
 <!--#include virtual="shtml/site-header.shtml"  -->
 
 <main class="main-content">
@@ -44,6 +42,7 @@
   <p class="hashtag">#WPFT</p>
 </section>
 
+<!--#include virtual="shtml/blue-banner.shtml"  -->
 
 <section class="about-wpft">
   <div class="container">
@@ -54,12 +53,16 @@
     </div>
     
     <div class="row">
-      <div class="left-col col-xs-12 col-sm-6">
+      <div class="left-col col-xs-12 col-sm-6 mobile-hide">
         <p>Life is but a dream and although cliche, it's true; life is short. Our mission is to enrich the journey. Back at HQ we were wondering what it would be like if you could measure fun. Our Sponsored Events will create the</p>
       </div>
       
-      <div class="right-col col-xs-12 col-sm-6">
+      <div class="right-col col-xs-12 col-sm-6 mobile-hide">
         <p>ultimate 'fun' experience. Our Ambassadors will champion 'fun'. And our Mobile App will track and share 'fun' metrics. We know one thing for sure; it's healthy to have fun and that's what the World Pro Fun Tour is all about.</p>
+      </div>
+
+      <div class="col-xs-12 mobile-show">
+        <p>Life is but a dream and although cliche, it's true; life is short. Our mission is to enrich the journey. Back at HQ we were wondering what it would be like if you could measure fun. Our Sponsored Events will create the ultimate 'fun' experience. Our Ambassadors will champion 'fun'. And our Mobile App will track and share 'fun' metrics. We know one thing for sure; it's healthy to have fun and that's what the World Pro Fun Tour is all about.</p>
       </div>
     </div>
   </div>

@@ -4,10 +4,10 @@
       <div class="row">
 
         <div class="footer-col col-xs-12 col-sm-2 social-icons">
-          <a href="#"><img src="/wpft/images/footer/instagram-icon.png" alt="instagram" width="30"></a>
-          <a href="#"><img src="/wpft/images/footer/linkedin-icon.png" alt="linkedin" width="30"></a>
-          <a href="#"><img src="/wpft/images/footer/facebook-icon.png" alt="facebook" width="30"></a>
-          <a href="#"><img src="/wpft/images/footer/twitter-icon.png" alt="twitter" width="30"></a>
+          <a href="https://www.instagram.com/worldprofuntour/" target="_blank"><img src="/wpft/images/footer/instagram-icon.png" alt="instagram" width="30"></a>
+          <a href="https://www.linkedin.com/company-beta/16246557/" target="_blank"><img src="/wpft/images/footer/linkedin-icon.png" alt="linkedin" width="30"></a>
+          <a href="https://www.facebook.com/pages/World-Pro-Fun-Tour/149044221811378" target="_blank"><img src="/wpft/images/footer/facebook-icon.png" alt="facebook" width="30"></a>
+          <a href="https://twitter.com/worldprofuntour" target="_blank"><img src="/wpft/images/footer/twitter-icon.png" alt="twitter" width="30"></a>
         </div>
         
         <div class="footer-col col-xs-12 col-sm-2">
@@ -56,3 +56,4 @@
     <p>©2017 World Pro Fun Tour. All rights reserved. <a href="#">Legal</a> | <a href="#">Privacy</a></p>
   </div>
 </footer>
+
