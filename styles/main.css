@@ -3876,10 +3876,10 @@ footer .footer-bottom {
   background-position: center center;
   height: 650px;
 }
-.legends h1 {
+.legends .hero h1 {
   margin-bottom: 20px;
 }
-.legends p {
+.legends .hero p {
   font-size: 24px;
   font-weight: 400;
 }
