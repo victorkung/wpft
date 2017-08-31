@@ -3883,34 +3883,20 @@ footer .footer-bottom {
   font-size: 24px;
   font-weight: 400;
 }
-.legends #doctor-bob {
-  background-color: #fbd87c;
-  min-height: 500px;
+.legends .team-section {
   text-align: center;
-  padding: 50px 0 75px 0;
+  padding: 100px 0;
 }
-.legends #doctor-bob .container,
-.legends #doctor-bob .row {
-  min-height: 500px;
+.legends .team-section img {
+  margin-bottom: 20px;
 }
-.legends #doctor-bob img.dr-bob-img {
-  position: relative;
-  width: 400px;
+.legends .team-section h3 {
+  margin-bottom: 10px;
 }
-.legends #doctor-bob .dr-bob-text {
-  margin-top: 50px;
-}
-.legends #doctor-bob h2,
-.legends #doctor-bob p {
-  color: #0000ff;
-}
-.legends #doctor-bob h2 {
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-.legends #doctor-bob p {
+.legends .team-section p {
   font-size: 18px;
   margin-bottom: 20px;
+  font-weight: 300;
 }
 .legends .social-icons a {
   margin-right: 7.5px;
@@ -3918,67 +3904,11 @@ footer .footer-bottom {
 .legends .social-icons a:last-of-type {
   margin-right: 0px;
 }
-.legends #briggs-kilborne {
-  background: url('../images/legends/briggs-kilborne.png') bottom center no-repeat #21419a;
-  background-size: contain;
-  height: 650px;
-  text-align: center;
-}
-.legends #briggs-kilborne .container,
-.legends #briggs-kilborne .row {
-  height: 650px;
-}
-.legends #briggs-kilborne h2,
-.legends #briggs-kilborne p {
-  color: white;
-}
-.legends #briggs-kilborne h2 {
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-.legends #briggs-kilborne p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-.legends .social-icons a {
-  margin-right: 7.5px;
-}
-.legends .social-icons a:last-of-type {
-  margin-right: 0px;
-}
-@media screen and (min-width: 768px) {
-  .legends #doctor-bob {
-    text-align: left;
-    height: 650px;
-    padding: 0;
+@media screen and (max-width: 768px) {
+  .legends .legend-profile {
+    margin-bottom: 50px;
   }
-  .legends #doctor-bob .container,
-  .legends #doctor-bob .row,
-  .legends #doctor-bob .dr-bob-img-wrapper {
-    height: 650px;
-  }
-  .legends #doctor-bob .dr-bob-text {
-    position: relative;
-    margin-top: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .legends #doctor-bob img.dr-bob-img {
-    position: absolute;
-    width: auto;
-    bottom: 0;
-  }
-  .legends #briggs-kilborne {
-    text-align: left;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .legends #doctor-bob {
-    text-align: left;
-    padding: 0;
-  }
-  .legends #doctor-bob img.dr-bob-img {
-    position: absolute;
-    bottom: 0;
+  .legends .legend-profile:last-of-type {
+    margin-bottom: 0;
   }
 }
