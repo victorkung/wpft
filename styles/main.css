@@ -3414,6 +3414,13 @@ header #mobile-nav-trigger {
     width: 100%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 890px) {
+  header .header-nav .logo img {
+    width: 100px;
+    max-width: 100px;
+    margin-top: 10px;
+  }
+}
 footer {
   width: 100%;
   font-size: 14px;
@@ -3620,7 +3627,7 @@ footer .footer-bottom {
   height: 825px;
 }
 .home .hero h1 {
-  margin-bottom: 65px;
+  margin-bottom: 100px;
 }
 .home .about-wpft {
   text-align: center;
